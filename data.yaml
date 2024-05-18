@@ -1,0 +1,4 @@
+train: C:/Users/AICCSX/Desktop/20240513/train/images
+val: C:/Users/AICCSX/Desktop/20240513/valid/images
+nc: 10
+names: ['keo_truc', 'keo_comi', 'keo_it', 'keo_lo', '1', '2', '3', '4', 'di_vat', '6']

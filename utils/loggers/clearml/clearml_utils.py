@@ -8,8 +8,8 @@ import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 import numpy as np
 import yaml
-from ultralytics.utils.plotting import Annotator, colors
-
+# from ultralytics.utils.plotting import Annotator, colors
+from utils.plots import Annotator,colors
 try:
     import clearml
     from clearml import Dataset, Task

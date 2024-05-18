@@ -62,7 +62,8 @@ def notebook_init(verbose=True):
     import os
     import shutil
 
-    from ultralytics.utils.checks import check_requirements
+    # from ultralytics.utils.checks import check_requirements
+    from utils.general import check_requirements
 
     from utils.general import check_font, is_colab
     from utils.torch_utils import select_device  # imports
